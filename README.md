@@ -1,7 +1,7 @@
 # Work in Progress (Not functional)
 
 #### Build SWIG from source
-1.  - Change configure.ac to accept Go1.10
+1. Change configure.ac to accept Go version 1.10
 2. Prepare
 ```
 ./autogen.sh
@@ -15,15 +15,14 @@
 make && make install
 ```
 
-
-#### Build environment
-```
-export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11"
-```
-
 #### SWIG build command
 ```
 swig -go -cgo -c++ -intgosize 64
+```
+
+#### Build environment for cgo
+```
+export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11"
 ```
 
 #### Go build command
