@@ -1,3 +1,12 @@
+Work in Progress (Not functional)
+
+Build SWIG from source:
+  - Change configure.ac to accept Go1.10
+./autogen.sh
+./configure --without-tcl --without-python --without-python3 --without-perl5 --without-octave --without-scilab --without-java --without-javascript --without-gcj --without-android --without-guile --without-mzscheme --without-ruby --without-php5 --without-php --without-ocaml --without-lua --without-csharp --without-pike --without-chicken --without-allegrocl --without-clisp --without-r --without-d
+
+
+
 Build environment:
 export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11"
 
