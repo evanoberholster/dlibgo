@@ -1,0 +1,8 @@
+Build environment:
+export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11"
+
+SWIG build command:
+swig -go -cgo -c++ -intgosize 64
+
+Go build command:
+go build -x -v
