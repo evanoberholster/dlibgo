@@ -1,20 +1,22 @@
 /* File : example.i */
 %module detector
-%include "dlib/dlib/geometry/rectangle.h"
-%include "dlib/dlib/geometry/vector.h"
-%include "dlib/dlib/array2d.h"
-%include "dlib/dlib/geometry/vector_abstract.h"
+
+%rename($ignore, %$isclass) ""; // Only ignore all classes
+%rename("%s") Rectangle; // Unignore
+%rename("%s") Vector; // Unignore
+%rename("%s") Point; // Unignore
+
+%include "/usr/local/include/dlib/geometry/rectangle.h"
+%include "/usr/local/include/dlib/geometry/vector.h"
 
 
 %{
-#include "dlib/dlib/image_io.h"
-#include "dlib/dlib/geometry/rectangle.h"
-#include "dlib/dlib/geometry/vector_abstract.h"
-#include "dlib/dlib/image_processing/generic_image.h"
+#include "/usr/local/include/dlib/geometry/rectangle.h"
+#include "/usr/local/include/dlib/geometry/vector.h"
+
+typedef dlib::vector<long,2> point;
+
 %}
-
-%template(DRectangle) dlib::vector<dlib::vector<double, 3l> >;
-
 
 
 /* Tell SWIG about it */

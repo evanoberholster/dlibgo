@@ -240,16 +240,17 @@ static void* Swig_malloc(int c) {
 }
 
 
-#include "dlib/dlib/image_io.h"
-#include "dlib/dlib/geometry/rectangle.h"
-#include "dlib/dlib/geometry/vector_abstract.h"
-#include "dlib/dlib/image_processing/generic_image.h"
+#include "/usr/local/include/dlib/geometry/rectangle.h"
+#include "/usr/local/include/dlib/geometry/vector.h"
+
+typedef dlib::vector<long,2> point;
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-void _wrap_Swig_free_detector_449ddc4dcc5485d9(void *_swig_go_0) {
+void _wrap_Swig_free_detector_fcc794055f4a9362(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -259,7 +260,7 @@ void _wrap_Swig_free_detector_449ddc4dcc5485d9(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_detector_449ddc4dcc5485d9(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_detector_fcc794055f4a9362(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -272,408 +273,7 @@ void *_wrap_Swig_malloc_detector_449ddc4dcc5485d9(intgo _swig_go_0) {
 }
 
 
-dlib::rectangle *_wrap_new_rectangle__SWIG_0_detector_449ddc4dcc5485d9(long long _swig_go_0, long long _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
-  long arg1 ;
-  long arg2 ;
-  long arg3 ;
-  long arg4 ;
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = (long)_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  arg3 = (long)_swig_go_2; 
-  arg4 = (long)_swig_go_3; 
-  
-  result = (dlib::rectangle *)new dlib::rectangle(arg1,arg2,arg3,arg4);
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::rectangle *_wrap_new_rectangle__SWIG_1_detector_449ddc4dcc5485d9(long long _swig_go_0, long long _swig_go_1) {
-  unsigned long arg1 ;
-  unsigned long arg2 ;
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = (unsigned long)_swig_go_0; 
-  arg2 = (unsigned long)_swig_go_1; 
-  
-  result = (dlib::rectangle *)new dlib::rectangle(arg1,arg2);
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::rectangle *_wrap_new_rectangle__SWIG_2_detector_449ddc4dcc5485d9(dlib::vector< long,2 > *_swig_go_0) {
-  point *arg1 = 0 ;
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = *(point **)&_swig_go_0; 
-  
-  result = (dlib::rectangle *)new dlib::rectangle((point const &)*arg1);
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::rectangle *_wrap_new_rectangle__SWIG_3_detector_449ddc4dcc5485d9(dlib::vector< long,2 > *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
-  point *arg1 = 0 ;
-  point *arg2 = 0 ;
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = *(point **)&_swig_go_0; 
-  arg2 = *(point **)&_swig_go_1; 
-  
-  result = (dlib::rectangle *)new dlib::rectangle((point const &)*arg1,(point const &)*arg2);
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::rectangle *_wrap_new_rectangle__SWIG_5_detector_449ddc4dcc5485d9() {
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  
-  result = (dlib::rectangle *)new dlib::rectangle();
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-long long _wrap_rectangle_top__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long)((dlib::rectangle const *)arg1)->top();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long *_wrap_rectangle_top__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long *result = 0 ;
-  long *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long *) &(arg1)->top();
-  *(long **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_rectangle_set_top_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long arg2 ;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  
-  (arg1)->set_top(arg2);
-  
-}
-
-
-long long _wrap_rectangle_left__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long)((dlib::rectangle const *)arg1)->left();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long *_wrap_rectangle_left__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long *result = 0 ;
-  long *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long *) &(arg1)->left();
-  *(long **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_rectangle_set_left_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long arg2 ;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  
-  (arg1)->set_left(arg2);
-  
-}
-
-
-long long _wrap_rectangle_right__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long)((dlib::rectangle const *)arg1)->right();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long *_wrap_rectangle_right__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long *result = 0 ;
-  long *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long *) &(arg1)->right();
-  *(long **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_rectangle_set_right_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long arg2 ;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  
-  (arg1)->set_right(arg2);
-  
-}
-
-
-long long _wrap_rectangle_bottom__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long)((dlib::rectangle const *)arg1)->bottom();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long *_wrap_rectangle_bottom__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long *result = 0 ;
-  long *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (long *) &(arg1)->bottom();
-  *(long **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_rectangle_set_bottom_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long arg2 ;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  
-  (arg1)->set_bottom(arg2);
-  
-}
-
-
-dlib::vector< long,2 > *_wrap_rectangle_tl_corner_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  SwigValueWrapper< dlib::vector< long,2 > > result;
-  dlib::vector< long,2 > *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = ((dlib::rectangle const *)arg1)->tl_corner();
-  *(point **)&_swig_go_result = new point(result); 
-  return _swig_go_result;
-}
-
-
-dlib::vector< long,2 > *_wrap_rectangle_bl_corner_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  SwigValueWrapper< dlib::vector< long,2 > > result;
-  dlib::vector< long,2 > *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = ((dlib::rectangle const *)arg1)->bl_corner();
-  *(point **)&_swig_go_result = new point(result); 
-  return _swig_go_result;
-}
-
-
-dlib::vector< long,2 > *_wrap_rectangle_tr_corner_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  SwigValueWrapper< dlib::vector< long,2 > > result;
-  dlib::vector< long,2 > *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = ((dlib::rectangle const *)arg1)->tr_corner();
-  *(point **)&_swig_go_result = new point(result); 
-  return _swig_go_result;
-}
-
-
-dlib::vector< long,2 > *_wrap_rectangle_br_corner_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  SwigValueWrapper< dlib::vector< long,2 > > result;
-  dlib::vector< long,2 > *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = ((dlib::rectangle const *)arg1)->br_corner();
-  *(point **)&_swig_go_result = new point(result); 
-  return _swig_go_result;
-}
-
-
-long long _wrap_rectangle_width_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  unsigned long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (unsigned long)((dlib::rectangle const *)arg1)->width();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long long _wrap_rectangle_height_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  unsigned long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (unsigned long)((dlib::rectangle const *)arg1)->height();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-long long _wrap_rectangle_area_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  unsigned long result;
-  long long _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (unsigned long)((dlib::rectangle const *)arg1)->area();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-bool _wrap_rectangle_is_empty_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  result = (bool)((dlib::rectangle const *)arg1)->is_empty();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::rectangle *_wrap_rectangle_intersect_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::rectangle *_swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  dlib::rectangle *arg2 = 0 ;
-  dlib::rectangle result;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = *(dlib::rectangle **)&_swig_go_1; 
-  
-  result = ((dlib::rectangle const *)arg1)->intersect((dlib::rectangle const &)*arg2);
-  *(dlib::rectangle **)&_swig_go_result = new dlib::rectangle(result); 
-  return _swig_go_result;
-}
-
-
-bool _wrap_rectangle_contains__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  point *arg2 = 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = *(point **)&_swig_go_1; 
-  
-  result = (bool)((dlib::rectangle const *)arg1)->contains((point const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-bool _wrap_rectangle_contains__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  long arg2 ;
-  long arg3 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = (long)_swig_go_1; 
-  arg3 = (long)_swig_go_2; 
-  
-  result = (bool)((dlib::rectangle const *)arg1)->contains(arg2,arg3);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-bool _wrap_rectangle_contains__SWIG_2_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::rectangle *_swig_go_1) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  dlib::rectangle *arg2 = 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  arg2 = *(dlib::rectangle **)&_swig_go_1; 
-  
-  result = (bool)((dlib::rectangle const *)arg1)->contains((dlib::rectangle const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_rectangle_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
-  dlib::rectangle *arg1 = (dlib::rectangle *) 0 ;
-  
-  arg1 = *(dlib::rectangle **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
-void _wrap_serialize_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, std::ostream *_swig_go_1) {
+void _wrap_serialize_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, std::ostream *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   std::ostream *arg2 = 0 ;
   
@@ -685,7 +285,7 @@ void _wrap_serialize_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, std:
 }
 
 
-void _wrap_deserialize_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, std::istream *_swig_go_1) {
+void _wrap_deserialize_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, std::istream *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   std::istream *arg2 = 0 ;
   
@@ -697,7 +297,7 @@ void _wrap_deserialize_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, st
 }
 
 
-dlib::rectangle *_wrap_centered_rect__SWIG_0_detector_449ddc4dcc5485d9(long long _swig_go_0, long long _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+dlib::rectangle *_wrap_centered_rect__SWIG_0_detector_fcc794055f4a9362(long long _swig_go_0, long long _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   long arg1 ;
   long arg2 ;
   unsigned long arg3 ;
@@ -716,7 +316,7 @@ dlib::rectangle *_wrap_centered_rect__SWIG_0_detector_449ddc4dcc5485d9(long long
 }
 
 
-dlib::rectangle *_wrap_intersect_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::rectangle *_swig_go_1) {
+dlib::rectangle *_wrap_intersect_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::rectangle *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   dlib::rectangle *arg2 = 0 ;
   dlib::rectangle result;
@@ -731,7 +331,7 @@ dlib::rectangle *_wrap_intersect_detector_449ddc4dcc5485d9(dlib::rectangle *_swi
 }
 
 
-long long _wrap_area_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
+long long _wrap_area_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -744,7 +344,7 @@ long long _wrap_area_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
 }
 
 
-dlib::vector< long,2 > *_wrap_center_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
+dlib::vector< long,2 > *_wrap_center_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0) {
   dlib::rectangle *arg1 = 0 ;
   SwigValueWrapper< dlib::vector< long,2 > > result;
   dlib::vector< long,2 > *_swig_go_result;
@@ -757,7 +357,7 @@ dlib::vector< long,2 > *_wrap_center_detector_449ddc4dcc5485d9(dlib::rectangle *
 }
 
 
-dlib::vector< double,2 > *_wrap_dcenter_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0) {
+dlib::vector< double,2 > *_wrap_dcenter_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0) {
   dlib::rectangle *arg1 = 0 ;
   SwigValueWrapper< dlib::vector< double,2 > > result;
   dlib::vector< double,2 > *_swig_go_result;
@@ -770,7 +370,7 @@ dlib::vector< double,2 > *_wrap_dcenter_detector_449ddc4dcc5485d9(dlib::rectangl
 }
 
 
-long long _wrap_distance_to_rect_edge_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
+long long _wrap_distance_to_rect_edge_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   point *arg2 = 0 ;
   long result;
@@ -785,7 +385,7 @@ long long _wrap_distance_to_rect_edge_detector_449ddc4dcc5485d9(dlib::rectangle 
 }
 
 
-dlib::vector< long,2 > *_wrap_nearest_point_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
+dlib::vector< long,2 > *_wrap_nearest_point_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   point *arg2 = 0 ;
   SwigValueWrapper< dlib::vector< long,2 > > result;
@@ -800,7 +400,7 @@ dlib::vector< long,2 > *_wrap_nearest_point_detector_449ddc4dcc5485d9(dlib::rect
 }
 
 
-long long _wrap_nearest_rect_detector_449ddc4dcc5485d9(std::vector< dlib::rectangle > *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
+long long _wrap_nearest_rect_detector_fcc794055f4a9362(std::vector< dlib::rectangle > *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
   std::vector< dlib::rectangle > *arg1 = 0 ;
   point *arg2 = 0 ;
   size_t result;
@@ -815,7 +415,7 @@ long long _wrap_nearest_rect_detector_449ddc4dcc5485d9(std::vector< dlib::rectan
 }
 
 
-void _wrap_clip_line_to_rectangle_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1, dlib::vector< long,2 > *_swig_go_2) {
+void _wrap_clip_line_to_rectangle_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1, dlib::vector< long,2 > *_swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   point *arg2 = 0 ;
   point *arg3 = 0 ;
@@ -829,7 +429,7 @@ void _wrap_clip_line_to_rectangle_detector_449ddc4dcc5485d9(dlib::rectangle *_sw
 }
 
 
-dlib::rectangle *_wrap_centered_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::vector< long,2 > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_centered_rect__SWIG_1_detector_fcc794055f4a9362(dlib::vector< long,2 > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   point *arg1 = 0 ;
   unsigned long arg2 ;
   unsigned long arg3 ;
@@ -846,7 +446,7 @@ dlib::rectangle *_wrap_centered_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::vec
 }
 
 
-dlib::rectangle *_wrap_centered_rect__SWIG_2_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_centered_rect__SWIG_2_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long arg2 ;
   unsigned long arg3 ;
@@ -863,7 +463,7 @@ dlib::rectangle *_wrap_centered_rect__SWIG_2_detector_449ddc4dcc5485d9(dlib::rec
 }
 
 
-dlib::rectangle *_wrap_shrink_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
+dlib::rectangle *_wrap_shrink_rect__SWIG_0_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   dlib::rectangle result;
@@ -878,7 +478,7 @@ dlib::rectangle *_wrap_shrink_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::recta
 }
 
 
-dlib::rectangle *_wrap_grow_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
+dlib::rectangle *_wrap_grow_rect__SWIG_0_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   dlib::rectangle result;
@@ -893,7 +493,7 @@ dlib::rectangle *_wrap_grow_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectang
 }
 
 
-dlib::rectangle *_wrap_shrink_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_shrink_rect__SWIG_1_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   long arg3 ;
@@ -910,7 +510,7 @@ dlib::rectangle *_wrap_shrink_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::recta
 }
 
 
-dlib::rectangle *_wrap_grow_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_grow_rect__SWIG_1_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   long arg3 ;
@@ -927,7 +527,7 @@ dlib::rectangle *_wrap_grow_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectang
 }
 
 
-dlib::rectangle *_wrap_translate_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
+dlib::rectangle *_wrap_translate_rect__SWIG_0_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   point *arg2 = 0 ;
   dlib::rectangle result;
@@ -942,7 +542,7 @@ dlib::rectangle *_wrap_translate_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::re
 }
 
 
-dlib::rectangle *_wrap_translate_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_translate_rect__SWIG_1_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   long arg3 ;
@@ -959,7 +559,7 @@ dlib::rectangle *_wrap_translate_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::re
 }
 
 
-dlib::rectangle *_wrap_resize_rect_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_resize_rect_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long arg2 ;
   unsigned long arg3 ;
@@ -976,7 +576,7 @@ dlib::rectangle *_wrap_resize_rect_detector_449ddc4dcc5485d9(dlib::rectangle *_s
 }
 
 
-dlib::rectangle *_wrap_resize_rect_width_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
+dlib::rectangle *_wrap_resize_rect_width_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long arg2 ;
   dlib::rectangle result;
@@ -991,7 +591,7 @@ dlib::rectangle *_wrap_resize_rect_width_detector_449ddc4dcc5485d9(dlib::rectang
 }
 
 
-dlib::rectangle *_wrap_resize_rect_height_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
+dlib::rectangle *_wrap_resize_rect_height_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long arg2 ;
   dlib::rectangle result;
@@ -1006,7 +606,7 @@ dlib::rectangle *_wrap_resize_rect_height_detector_449ddc4dcc5485d9(dlib::rectan
 }
 
 
-dlib::rectangle *_wrap_move_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
+dlib::rectangle *_wrap_move_rect__SWIG_0_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, dlib::vector< long,2 > *_swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   point *arg2 = 0 ;
   dlib::rectangle result;
@@ -1021,7 +621,7 @@ dlib::rectangle *_wrap_move_rect__SWIG_0_detector_449ddc4dcc5485d9(dlib::rectang
 }
 
 
-dlib::rectangle *_wrap_move_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+dlib::rectangle *_wrap_move_rect__SWIG_1_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   dlib::rectangle *arg1 = 0 ;
   long arg2 ;
   long arg3 ;
@@ -1038,7 +638,7 @@ dlib::rectangle *_wrap_move_rect__SWIG_1_detector_449ddc4dcc5485d9(dlib::rectang
 }
 
 
-dlib::rectangle *_wrap_set_rect_area_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
+dlib::rectangle *_wrap_set_rect_area_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, long long _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   unsigned long arg2 ;
   dlib::rectangle result;
@@ -1053,7 +653,7 @@ dlib::rectangle *_wrap_set_rect_area_detector_449ddc4dcc5485d9(dlib::rectangle *
 }
 
 
-dlib::rectangle *_wrap_set_aspect_ratio_detector_449ddc4dcc5485d9(dlib::rectangle *_swig_go_0, double _swig_go_1) {
+dlib::rectangle *_wrap_set_aspect_ratio_detector_fcc794055f4a9362(dlib::rectangle *_swig_go_0, double _swig_go_1) {
   dlib::rectangle *arg1 = 0 ;
   double arg2 ;
   dlib::rectangle result;
@@ -1065,235 +665,6 @@ dlib::rectangle *_wrap_set_aspect_ratio_detector_449ddc4dcc5485d9(dlib::rectangl
   result = dlib::set_aspect_ratio((dlib::rectangle const &)*arg1,arg2);
   *(dlib::rectangle **)&_swig_go_result = new dlib::rectangle(result); 
   return _swig_go_result;
-}
-
-
-dlib::vector< dlib::vector< double,3l > > *_wrap_new_DRectangle__SWIG_0_detector_449ddc4dcc5485d9() {
-  dlib::vector< dlib::vector< double,3l > > *result = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *_swig_go_result;
-  
-  
-  result = (dlib::vector< dlib::vector< double,3l > > *)new dlib::vector< dlib::vector< double,3l > >();
-  *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_result = (dlib::vector< dlib::vector< double,3l > > *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< dlib::vector< double,3l > > *_wrap_new_DRectangle__SWIG_1_detector_449ddc4dcc5485d9(dlib::vector< double,3l > *_swig_go_0, dlib::vector< double,3l > *_swig_go_1, dlib::vector< double,3l > *_swig_go_2) {
-  SwigValueWrapper< dlib::vector< double,3l > > arg1 ;
-  SwigValueWrapper< dlib::vector< double,3l > > arg2 ;
-  SwigValueWrapper< dlib::vector< double,3l > > arg3 ;
-  dlib::vector< double,3l > const *argp1 ;
-  dlib::vector< double,3l > const *argp2 ;
-  dlib::vector< double,3l > const *argp3 ;
-  dlib::vector< dlib::vector< double,3l > > *result = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *_swig_go_result;
-  
-  
-  argp1 = (dlib::vector< double,3l > *)_swig_go_0;
-  if (argp1 == NULL) {
-    _swig_gopanic("Attempt to dereference null dlib::vector< double,3l > const");
-  }
-  arg1 = (dlib::vector< double,3l >)*argp1;
-  
-  
-  argp2 = (dlib::vector< double,3l > *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null dlib::vector< double,3l > const");
-  }
-  arg2 = (dlib::vector< double,3l >)*argp2;
-  
-  
-  argp3 = (dlib::vector< double,3l > *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null dlib::vector< double,3l > const");
-  }
-  arg3 = (dlib::vector< double,3l >)*argp3;
-  
-  
-  result = (dlib::vector< dlib::vector< double,3l > > *)new dlib::vector< dlib::vector< double,3l > >(arg1,arg2,arg3);
-  *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_result = (dlib::vector< dlib::vector< double,3l > > *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< dlib::vector< double,3l > > *_wrap_new_DRectangle__SWIG_2_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *result = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< dlib::vector< double,3l > > *)new dlib::vector< dlib::vector< double,3l > >((dlib::vector< dlib::vector< double,3l > > const &)*arg1);
-  *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_result = (dlib::vector< dlib::vector< double,3l > > *)result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< dlib::vector< double,3l > > *_wrap_new_DRectangle__SWIG_3_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l >,2 > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l >,2 > *arg1 = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *result = 0 ;
-  dlib::vector< dlib::vector< double,3l > > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l >,2 > **)&_swig_go_0; 
-  
-  result = (dlib::vector< dlib::vector< double,3l > > *)new dlib::vector< dlib::vector< double,3l > >((dlib::vector< dlib::vector< double,3l >,2 > const &)*arg1);
-  *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_result = (dlib::vector< dlib::vector< double,3l > > *)result; 
-  return _swig_go_result;
-}
-
-
-double _wrap_DRectangle_length_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  double result;
-  double _swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (double)((dlib::vector< dlib::vector< double,3l > > const *)arg1)->length();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-double _wrap_DRectangle_length_squared_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  double result;
-  double _swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (double)((dlib::vector< dlib::vector< double,3l > > const *)arg1)->length_squared();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vc_rebind< double,3 >::type *_wrap_DRectangle_normalize_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  SwigValueWrapper< dlib::vc_rebind< double,3 >::type > result;
-  dlib::vc_rebind< double,3 >::type *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = ((dlib::vector< dlib::vector< double,3l > > const *)arg1)->normalize();
-  *(dlib::vc_rebind< double,3 >::type **)&_swig_go_result = new dlib::vc_rebind< double,3 >::type(result); 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_x__SWIG_0_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &(arg1)->x();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_y__SWIG_0_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &(arg1)->y();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_z__SWIG_0_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &(arg1)->z();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_x__SWIG_1_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &((dlib::vector< dlib::vector< double,3l > > const *)arg1)->x();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_y__SWIG_1_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &((dlib::vector< dlib::vector< double,3l > > const *)arg1)->y();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_z__SWIG_1_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< double,3l > *result = 0 ;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  result = (dlib::vector< double,3l > *) &((dlib::vector< dlib::vector< double,3l > > const *)arg1)->z();
-  *(dlib::vector< double,3l > **)&_swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-dlib::vector< double,3l > *_wrap_DRectangle_dot_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0, dlib::vector< dlib::vector< double,3l > > *_swig_go_1) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< dlib::vector< double,3l > > *arg2 = 0 ;
-  SwigValueWrapper< dlib::vector< double,3l > > result;
-  dlib::vector< double,3l > *_swig_go_result;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  arg2 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_1; 
-  
-  result = ((dlib::vector< dlib::vector< double,3l > > const *)arg1)->dot((dlib::vector< dlib::vector< double,3l > > const &)*arg2);
-  *(dlib::vector< double,3l > **)&_swig_go_result = new dlib::vector< double,3l >(result); 
-  return _swig_go_result;
-}
-
-
-void _wrap_DRectangle_swap_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0, dlib::vector< dlib::vector< double,3l > > *_swig_go_1) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  dlib::vector< dlib::vector< double,3l > > *arg2 = 0 ;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  arg2 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_1; 
-  
-  (arg1)->swap(*arg2);
-  
-}
-
-
-void _wrap_delete_DRectangle_detector_449ddc4dcc5485d9(dlib::vector< dlib::vector< double,3l > > *_swig_go_0) {
-  dlib::vector< dlib::vector< double,3l > > *arg1 = (dlib::vector< dlib::vector< double,3l > > *) 0 ;
-  
-  arg1 = *(dlib::vector< dlib::vector< double,3l > > **)&_swig_go_0; 
-  
-  delete arg1;
-  
 }
 
 
