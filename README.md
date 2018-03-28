@@ -23,7 +23,6 @@ cmake --build . --config Release
 ldconfig
 ```
 
-
 #### SWIG build command
 ```shell
 swig -go -cgo -c++ -intgosize 64
@@ -32,6 +31,7 @@ swig -go -cgo -c++ -intgosize 64
 #### Build environment for cgo
 ```shell
 export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11"
+export CGO_LDFLAGS="-ljpeg -lpng -l/usr/local/lib/libdlib.a"
 ```
 
 #### Go build command
