@@ -73,94 +73,71 @@ typedef long long swig_type_42;
 typedef long long swig_type_43;
 typedef long long swig_type_44;
 typedef long long swig_type_45;
-typedef long long swig_type_46;
-typedef long long swig_type_47;
-typedef long long swig_type_48;
-extern void _wrap_Swig_free_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_detector_0cbdac121a63e725(swig_intgo arg1);
-extern uintptr_t _wrap_new_rectangle__SWIG_0_detector_0cbdac121a63e725(swig_type_1 arg1, swig_type_2 arg2, swig_type_3 arg3, swig_type_4 arg4);
-extern uintptr_t _wrap_new_rectangle__SWIG_1_detector_0cbdac121a63e725(swig_type_5 arg1, swig_type_6 arg2);
-extern uintptr_t _wrap_new_rectangle__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_new_rectangle__SWIG_3_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_rectangle__SWIG_5_detector_0cbdac121a63e725(void);
-extern swig_type_7 _wrap_rectangle_top__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_voidp _wrap_rectangle_top__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_rectangle_set_top_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_8 arg2);
-extern swig_type_9 _wrap_rectangle_left__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_voidp _wrap_rectangle_left__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_rectangle_set_left_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_10 arg2);
-extern swig_type_11 _wrap_rectangle_right__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_voidp _wrap_rectangle_right__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_rectangle_set_right_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_12 arg2);
-extern swig_type_13 _wrap_rectangle_bottom__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_voidp _wrap_rectangle_bottom__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_rectangle_set_bottom_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_14 arg2);
-extern uintptr_t _wrap_rectangle_tl_corner_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_rectangle_bl_corner_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_rectangle_tr_corner_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_rectangle_br_corner_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_type_15 _wrap_rectangle_width_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_type_16 _wrap_rectangle_height_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_type_17 _wrap_rectangle_area_detector_0cbdac121a63e725(uintptr_t arg1);
-extern _Bool _wrap_rectangle_is_empty_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_rectangle_intersect_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_rectangle_contains__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_rectangle_contains__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_18 arg2, swig_type_19 arg3);
-extern _Bool _wrap_rectangle_contains__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_rectangle_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_serialize__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_deserialize__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_centered_rect__SWIG_0_detector_0cbdac121a63e725(swig_type_20 arg1, swig_type_21 arg2, swig_type_22 arg3, swig_type_23 arg4);
-extern uintptr_t _wrap_intersect_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_24 _wrap_area_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_center_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_dcenter_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_type_25 _wrap_distance_to_rect_edge_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_nearest_point_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_26 _wrap_nearest_rect_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_clip_line_to_rectangle_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_centered_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_27 arg2, swig_type_28 arg3);
-extern uintptr_t _wrap_centered_rect__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_29 arg2, swig_type_30 arg3);
-extern uintptr_t _wrap_shrink_rect__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_31 arg2);
-extern uintptr_t _wrap_grow_rect__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_32 arg2);
-extern uintptr_t _wrap_shrink_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_33 arg2, swig_type_34 arg3);
-extern uintptr_t _wrap_grow_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_35 arg2, swig_type_36 arg3);
-extern uintptr_t _wrap_translate_rect__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_translate_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_37 arg2, swig_type_38 arg3);
-extern uintptr_t _wrap_resize_rect_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_39 arg2, swig_type_40 arg3);
-extern uintptr_t _wrap_resize_rect_width_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_41 arg2);
-extern uintptr_t _wrap_resize_rect_height_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_42 arg2);
-extern uintptr_t _wrap_move_rect__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_move_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_43 arg2, swig_type_44 arg3);
-extern uintptr_t _wrap_set_rect_area_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_45 arg2);
-extern uintptr_t _wrap_set_aspect_ratio_detector_0cbdac121a63e725(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_new_full_object_detection__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_full_object_detection__SWIG_1_detector_0cbdac121a63e725(void);
-extern uintptr_t _wrap_new_full_object_detection__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_full_object_detection_get_rect__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_full_object_detection_get_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern swig_type_46 _wrap_full_object_detection_num_parts_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_full_object_detection_part__SWIG_0_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_47 arg2);
-extern uintptr_t _wrap_full_object_detection_part__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1, swig_type_48 arg2);
-extern void _wrap_delete_full_object_detection_detector_0cbdac121a63e725(uintptr_t arg1);
-extern _Bool _wrap_all_parts_in_rect_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_new_mmod_rect__SWIG_0_detector_0cbdac121a63e725(void);
-extern uintptr_t _wrap_new_mmod_rect__SWIG_1_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_new_mmod_rect__SWIG_2_detector_0cbdac121a63e725(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_new_mmod_rect__SWIG_3_detector_0cbdac121a63e725(uintptr_t arg1, double arg2, uintptr_t arg3);
-extern void _wrap_mmod_rect_rect_set_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_mmod_rect_rect_get_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_mmod_rect_detection_confidence_set_detector_0cbdac121a63e725(uintptr_t arg1, double arg2);
-extern double _wrap_mmod_rect_detection_confidence_get_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_mmod_rect_ignore_set_detector_0cbdac121a63e725(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_mmod_rect_ignore_get_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_mmod_rect_label_set_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_mmod_rect_label_get_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_delete_mmod_rect_detector_0cbdac121a63e725(uintptr_t arg1);
-extern uintptr_t _wrap_ignored_mmod_rect_detector_0cbdac121a63e725(uintptr_t arg1);
-extern void _wrap_serialize__SWIG_3_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_deserialize__SWIG_3_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ProcessRect_detector_0cbdac121a63e725(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+typedef _gostring_ swig_type_46;
+typedef _gostring_ swig_type_47;
+typedef _gostring_ swig_type_48;
+typedef _gostring_ swig_type_49;
+extern void _wrap_Swig_free_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_detector_1419bee92a6f0b74(swig_intgo arg1);
+extern uintptr_t _wrap_new_rectangle__SWIG_0_detector_1419bee92a6f0b74(swig_type_1 arg1, swig_type_2 arg2, swig_type_3 arg3, swig_type_4 arg4);
+extern uintptr_t _wrap_new_rectangle__SWIG_1_detector_1419bee92a6f0b74(swig_type_5 arg1, swig_type_6 arg2);
+extern uintptr_t _wrap_new_rectangle__SWIG_2_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_new_rectangle__SWIG_3_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_rectangle__SWIG_5_detector_1419bee92a6f0b74(void);
+extern swig_type_7 _wrap_rectangle_top__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_voidp _wrap_rectangle_top__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern void _wrap_rectangle_set_top_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_8 arg2);
+extern swig_type_9 _wrap_rectangle_left__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_voidp _wrap_rectangle_left__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern void _wrap_rectangle_set_left_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_10 arg2);
+extern swig_type_11 _wrap_rectangle_right__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_voidp _wrap_rectangle_right__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern void _wrap_rectangle_set_right_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_12 arg2);
+extern swig_type_13 _wrap_rectangle_bottom__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_voidp _wrap_rectangle_bottom__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern void _wrap_rectangle_set_bottom_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_14 arg2);
+extern uintptr_t _wrap_rectangle_tl_corner_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_rectangle_bl_corner_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_rectangle_tr_corner_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_rectangle_br_corner_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_type_15 _wrap_rectangle_width_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_type_16 _wrap_rectangle_height_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_type_17 _wrap_rectangle_area_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern _Bool _wrap_rectangle_is_empty_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_rectangle_intersect_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_rectangle_contains__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_rectangle_contains__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_18 arg2, swig_type_19 arg3);
+extern _Bool _wrap_rectangle_contains__SWIG_2_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_rectangle_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern void _wrap_serialize_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_deserialize_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_centered_rect__SWIG_0_detector_1419bee92a6f0b74(swig_type_20 arg1, swig_type_21 arg2, swig_type_22 arg3, swig_type_23 arg4);
+extern uintptr_t _wrap_intersect_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_24 _wrap_area_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_center_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern uintptr_t _wrap_dcenter_detector_1419bee92a6f0b74(uintptr_t arg1);
+extern swig_type_25 _wrap_distance_to_rect_edge_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_nearest_point_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_26 _wrap_nearest_rect_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_clip_line_to_rectangle_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_centered_rect__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_27 arg2, swig_type_28 arg3);
+extern uintptr_t _wrap_centered_rect__SWIG_2_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_29 arg2, swig_type_30 arg3);
+extern uintptr_t _wrap_shrink_rect__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_31 arg2);
+extern uintptr_t _wrap_grow_rect__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_32 arg2);
+extern uintptr_t _wrap_shrink_rect__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_33 arg2, swig_type_34 arg3);
+extern uintptr_t _wrap_grow_rect__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_35 arg2, swig_type_36 arg3);
+extern uintptr_t _wrap_translate_rect__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_translate_rect__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_37 arg2, swig_type_38 arg3);
+extern uintptr_t _wrap_resize_rect_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_39 arg2, swig_type_40 arg3);
+extern uintptr_t _wrap_resize_rect_width_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_41 arg2);
+extern uintptr_t _wrap_resize_rect_height_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_42 arg2);
+extern uintptr_t _wrap_move_rect__SWIG_0_detector_1419bee92a6f0b74(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_move_rect__SWIG_1_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_43 arg2, swig_type_44 arg3);
+extern uintptr_t _wrap_set_rect_area_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_45 arg2);
+extern uintptr_t _wrap_set_aspect_ratio_detector_1419bee92a6f0b74(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_LoadShapePredictor_detector_1419bee92a6f0b74(swig_type_46 arg1);
+extern uintptr_t _wrap_UseShapePredictor_detector_1419bee92a6f0b74(uintptr_t arg1, swig_type_47 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_DetectObjectsRect_detector_1419bee92a6f0b74(swig_type_48 arg1, swig_type_49 arg2, uintptr_t arg3);
 #undef intgo
 */
 import "C"
@@ -186,13 +163,13 @@ type _ sync.Mutex
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_detector_0cbdac121a63e725(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_detector_1419bee92a6f0b74(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -211,7 +188,7 @@ func NewRectangle__SWIG_0(arg1 int64, arg2 int64, arg3 int64, arg4 int64) (_swig
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_0_detector_0cbdac121a63e725(C.swig_type_1(_swig_i_0), C.swig_type_2(_swig_i_1), C.swig_type_3(_swig_i_2), C.swig_type_4(_swig_i_3))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_0_detector_1419bee92a6f0b74(C.swig_type_1(_swig_i_0), C.swig_type_2(_swig_i_1), C.swig_type_3(_swig_i_2), C.swig_type_4(_swig_i_3))))
 	return swig_r
 }
 
@@ -219,14 +196,14 @@ func NewRectangle__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_1_detector_0cbdac121a63e725(C.swig_type_5(_swig_i_0), C.swig_type_6(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_1_detector_1419bee92a6f0b74(C.swig_type_5(_swig_i_0), C.swig_type_6(_swig_i_1))))
 	return swig_r
 }
 
 func NewRectangle__SWIG_2(arg1 Dlib_vector_Sl_long_Sc_2_Sg_) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_2_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -234,13 +211,13 @@ func NewRectangle__SWIG_3(arg1 Dlib_vector_Sl_long_Sc_2_Sg_, arg2 Dlib_vector_Sl
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_3_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_3_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func NewRectangle__SWIG_5() (_swig_ret Rectangle) {
 	var swig_r Rectangle
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_5_detector_0cbdac121a63e725()))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_rectangle__SWIG_5_detector_1419bee92a6f0b74()))
 	return swig_r
 }
 
@@ -274,14 +251,14 @@ check_3:
 func (arg1 SwigcptrRectangle) Top__SWIG_0() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_rectangle_top__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_rectangle_top__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Top__SWIG_1() (_swig_ret *int64) {
 	var swig_r *int64
 	_swig_i_0 := arg1
-	swig_r = (*int64)(C._wrap_rectangle_top__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int64)(C._wrap_rectangle_top__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -299,20 +276,20 @@ func (p SwigcptrRectangle) Top(a ...interface{}) interface{} {
 func (arg1 SwigcptrRectangle) Set_top(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_rectangle_set_top_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+	C._wrap_rectangle_set_top_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) Left__SWIG_0() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_rectangle_left__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_rectangle_left__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Left__SWIG_1() (_swig_ret *int64) {
 	var swig_r *int64
 	_swig_i_0 := arg1
-	swig_r = (*int64)(C._wrap_rectangle_left__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int64)(C._wrap_rectangle_left__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -330,20 +307,20 @@ func (p SwigcptrRectangle) Left(a ...interface{}) interface{} {
 func (arg1 SwigcptrRectangle) Set_left(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_rectangle_set_left_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_10(_swig_i_1))
+	C._wrap_rectangle_set_left_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_10(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) Right__SWIG_0() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_rectangle_right__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_rectangle_right__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Right__SWIG_1() (_swig_ret *int64) {
 	var swig_r *int64
 	_swig_i_0 := arg1
-	swig_r = (*int64)(C._wrap_rectangle_right__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int64)(C._wrap_rectangle_right__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -361,20 +338,20 @@ func (p SwigcptrRectangle) Right(a ...interface{}) interface{} {
 func (arg1 SwigcptrRectangle) Set_right(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_rectangle_set_right_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_12(_swig_i_1))
+	C._wrap_rectangle_set_right_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_12(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) Bottom__SWIG_0() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_rectangle_bottom__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_rectangle_bottom__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Bottom__SWIG_1() (_swig_ret *int64) {
 	var swig_r *int64
 	_swig_i_0 := arg1
-	swig_r = (*int64)(C._wrap_rectangle_bottom__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int64)(C._wrap_rectangle_bottom__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -392,62 +369,62 @@ func (p SwigcptrRectangle) Bottom(a ...interface{}) interface{} {
 func (arg1 SwigcptrRectangle) Set_bottom(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_rectangle_set_bottom_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_14(_swig_i_1))
+	C._wrap_rectangle_set_bottom_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_14(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) Tl_corner() (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_tl_corner_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_tl_corner_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Bl_corner() (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_bl_corner_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_bl_corner_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Tr_corner() (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_tr_corner_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_tr_corner_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Br_corner() (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_br_corner_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_rectangle_br_corner_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Width() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_rectangle_width_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_rectangle_width_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Height() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_rectangle_height_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_rectangle_height_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Area() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_rectangle_area_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_rectangle_area_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) Is_empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_rectangle_is_empty_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_rectangle_is_empty_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -455,7 +432,7 @@ func (arg1 SwigcptrRectangle) Intersect(arg2 Rectangle) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_rectangle_intersect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_rectangle_intersect_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -463,7 +440,7 @@ func (arg1 SwigcptrRectangle) Contains__SWIG_0(arg2 Dlib_vector_Sl_long_Sc_2_Sg_
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -472,7 +449,7 @@ func (arg1 SwigcptrRectangle) Contains__SWIG_1(arg2 int64, arg3 int64) (_swig_re
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1), C.swig_type_19(_swig_i_2)))
+	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1), C.swig_type_19(_swig_i_2)))
 	return swig_r
 }
 
@@ -480,7 +457,7 @@ func (arg1 SwigcptrRectangle) Contains__SWIG_2(arg2 Rectangle) (_swig_ret bool) 
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_rectangle_contains__SWIG_2_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -504,7 +481,7 @@ check_1:
 
 func DeleteRectangle(arg1 Rectangle) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_rectangle_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_rectangle_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))
 }
 
 type Rectangle interface {
@@ -530,16 +507,16 @@ type Rectangle interface {
 	Contains(a ...interface{}) bool
 }
 
-func Serialize__SWIG_2(arg1 Rectangle, arg2 Std_ostream) {
+func Serialize(arg1 Rectangle, arg2 Std_ostream) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_serialize__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_serialize_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func Deserialize__SWIG_2(arg1 Rectangle, arg2 Std_istream) {
+func Deserialize(arg1 Rectangle, arg2 Std_istream) {
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_deserialize__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_deserialize_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func Centered_rect__SWIG_0(arg1 int64, arg2 int64, arg3 uint64, arg4 uint64) (_swig_ret Rectangle) {
@@ -548,7 +525,7 @@ func Centered_rect__SWIG_0(arg1 int64, arg2 int64, arg3 uint64, arg4 uint64) (_s
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_0_detector_0cbdac121a63e725(C.swig_type_20(_swig_i_0), C.swig_type_21(_swig_i_1), C.swig_type_22(_swig_i_2), C.swig_type_23(_swig_i_3))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_0_detector_1419bee92a6f0b74(C.swig_type_20(_swig_i_0), C.swig_type_21(_swig_i_1), C.swig_type_22(_swig_i_2), C.swig_type_23(_swig_i_3))))
 	return swig_r
 }
 
@@ -556,28 +533,28 @@ func Intersect(arg1 Rectangle, arg2 Rectangle) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_intersect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_intersect_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func Area(arg1 Rectangle) (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (uint64)(C._wrap_area_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_area_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func Center(arg1 Rectangle) (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_center_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_center_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Dcenter(arg1 Rectangle) (_swig_ret Dlib_vector_Sl_double_Sc_2_Sg_) {
 	var swig_r Dlib_vector_Sl_double_Sc_2_Sg_
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Dlib_vector_Sl_double_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_double_Sc_2_Sg_(C._wrap_dcenter_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
+	swig_r = (Dlib_vector_Sl_double_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_double_Sc_2_Sg_(C._wrap_dcenter_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -585,7 +562,7 @@ func Distance_to_rect_edge(arg1 Rectangle, arg2 Dlib_vector_Sl_long_Sc_2_Sg_) (_
 	var swig_r int64
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (int64)(C._wrap_distance_to_rect_edge_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_distance_to_rect_edge_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -593,7 +570,7 @@ func Nearest_point(arg1 Rectangle, arg2 Dlib_vector_Sl_long_Sc_2_Sg_) (_swig_ret
 	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_nearest_point_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_nearest_point_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -601,7 +578,7 @@ func Nearest_rect(arg1 Std_vector_Sl_dlib_rectangle_Sg_, arg2 Dlib_vector_Sl_lon
 	var swig_r int64
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (int64)(C._wrap_nearest_rect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_nearest_rect_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -609,7 +586,7 @@ func Clip_line_to_rectangle(arg1 Rectangle, arg2 Dlib_vector_Sl_long_Sc_2_Sg_, a
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_clip_line_to_rectangle_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_clip_line_to_rectangle_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func Centered_rect__SWIG_1(arg1 Dlib_vector_Sl_long_Sc_2_Sg_, arg2 uint64, arg3 uint64) (_swig_ret Rectangle) {
@@ -617,7 +594,7 @@ func Centered_rect__SWIG_1(arg1 Dlib_vector_Sl_long_Sc_2_Sg_, arg2 uint64, arg3 
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_27(_swig_i_1), C.swig_type_28(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_27(_swig_i_1), C.swig_type_28(_swig_i_2))))
 	return swig_r
 }
 
@@ -626,7 +603,7 @@ func Centered_rect__SWIG_2(arg1 Rectangle, arg2 uint64, arg3 uint64) (_swig_ret 
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_29(_swig_i_1), C.swig_type_30(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_centered_rect__SWIG_2_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_29(_swig_i_1), C.swig_type_30(_swig_i_2))))
 	return swig_r
 }
 
@@ -652,7 +629,7 @@ func Shrink_rect__SWIG_0(arg1 Rectangle, arg2 int64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_shrink_rect__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_31(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_shrink_rect__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_31(_swig_i_1))))
 	return swig_r
 }
 
@@ -660,7 +637,7 @@ func Grow_rect__SWIG_0(arg1 Rectangle, arg2 int64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_grow_rect__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_32(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_grow_rect__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_32(_swig_i_1))))
 	return swig_r
 }
 
@@ -669,7 +646,7 @@ func Shrink_rect__SWIG_1(arg1 Rectangle, arg2 int64, arg3 int64) (_swig_ret Rect
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_shrink_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_33(_swig_i_1), C.swig_type_34(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_shrink_rect__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_33(_swig_i_1), C.swig_type_34(_swig_i_2))))
 	return swig_r
 }
 
@@ -689,7 +666,7 @@ func Grow_rect__SWIG_1(arg1 Rectangle, arg2 int64, arg3 int64) (_swig_ret Rectan
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_grow_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_35(_swig_i_1), C.swig_type_36(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_grow_rect__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_35(_swig_i_1), C.swig_type_36(_swig_i_2))))
 	return swig_r
 }
 
@@ -708,7 +685,7 @@ func Translate_rect__SWIG_0(arg1 Rectangle, arg2 Dlib_vector_Sl_long_Sc_2_Sg_) (
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_translate_rect__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_translate_rect__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -717,7 +694,7 @@ func Translate_rect__SWIG_1(arg1 Rectangle, arg2 int64, arg3 int64) (_swig_ret R
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_translate_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_37(_swig_i_1), C.swig_type_38(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_translate_rect__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_37(_swig_i_1), C.swig_type_38(_swig_i_2))))
 	return swig_r
 }
 
@@ -737,7 +714,7 @@ func Resize_rect(arg1 Rectangle, arg2 uint64, arg3 uint64) (_swig_ret Rectangle)
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_39(_swig_i_1), C.swig_type_40(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_39(_swig_i_1), C.swig_type_40(_swig_i_2))))
 	return swig_r
 }
 
@@ -745,7 +722,7 @@ func Resize_rect_width(arg1 Rectangle, arg2 uint64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_width_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_41(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_width_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_41(_swig_i_1))))
 	return swig_r
 }
 
@@ -753,7 +730,7 @@ func Resize_rect_height(arg1 Rectangle, arg2 uint64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_height_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_42(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_resize_rect_height_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_42(_swig_i_1))))
 	return swig_r
 }
 
@@ -761,7 +738,7 @@ func Move_rect__SWIG_0(arg1 Rectangle, arg2 Dlib_vector_Sl_long_Sc_2_Sg_) (_swig
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_move_rect__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_move_rect__SWIG_0_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -770,7 +747,7 @@ func Move_rect__SWIG_1(arg1 Rectangle, arg2 int64, arg3 int64) (_swig_ret Rectan
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_move_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_43(_swig_i_1), C.swig_type_44(_swig_i_2))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_move_rect__SWIG_1_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_43(_swig_i_1), C.swig_type_44(_swig_i_2))))
 	return swig_r
 }
 
@@ -789,7 +766,7 @@ func Set_rect_area(arg1 Rectangle, arg2 uint64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_set_rect_area_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_45(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_set_rect_area_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.swig_type_45(_swig_i_1))))
 	return swig_r
 }
 
@@ -797,318 +774,44 @@ func Set_aspect_ratio(arg1 Rectangle, arg2 float64) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_set_aspect_ratio_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_set_aspect_ratio_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
-type SwigcptrFull_object_detection uintptr
-
-func (p SwigcptrFull_object_detection) Swigcptr() uintptr {
-	return (uintptr)(p)
-}
-
-func (p SwigcptrFull_object_detection) SwigIsFull_object_detection() {
-}
-
-func NewFull_object_detection__SWIG_0(arg1 Rectangle, arg2 Std_vector_Sl_dlib_vector_Sl_long_Sc_2_Sg__Sg_) (_swig_ret Full_object_detection) {
-	var swig_r Full_object_detection
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Full_object_detection)(SwigcptrFull_object_detection(C._wrap_new_full_object_detection__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
-	return swig_r
-}
-
-func NewFull_object_detection__SWIG_1() (_swig_ret Full_object_detection) {
-	var swig_r Full_object_detection
-	swig_r = (Full_object_detection)(SwigcptrFull_object_detection(C._wrap_new_full_object_detection__SWIG_1_detector_0cbdac121a63e725()))
-	return swig_r
-}
-
-func NewFull_object_detection__SWIG_2(arg1 Rectangle) (_swig_ret Full_object_detection) {
-	var swig_r Full_object_detection
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Full_object_detection)(SwigcptrFull_object_detection(C._wrap_new_full_object_detection__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func NewFull_object_detection(a ...interface{}) Full_object_detection {
-	argc := len(a)
-	if argc == 0 {
-		return NewFull_object_detection__SWIG_1()
-	}
-	if argc == 1 {
-		return NewFull_object_detection__SWIG_2(a[0].(Rectangle))
-	}
-	if argc == 2 {
-		return NewFull_object_detection__SWIG_0(a[0].(Rectangle), a[1].(Std_vector_Sl_dlib_vector_Sl_long_Sc_2_Sg__Sg_))
-	}
-	panic("No match for overloaded function call")
-}
-
-func (arg1 SwigcptrFull_object_detection) Get_rect__SWIG_0() (_swig_ret Rectangle) {
-	var swig_r Rectangle
+func LoadShapePredictor(arg1 string) (_swig_ret Dlib_shape_predictor) {
+	var swig_r Dlib_shape_predictor
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_full_object_detection_get_rect__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func (arg1 SwigcptrFull_object_detection) Get_rect__SWIG_1() (_swig_ret Rectangle) {
-	var swig_r Rectangle
-	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_full_object_detection_get_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func (p SwigcptrFull_object_detection) Get_rect(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 0 {
-		return p.Get_rect__SWIG_0()
+	swig_r = (Dlib_shape_predictor)(SwigcptrDlib_shape_predictor(C._wrap_LoadShapePredictor_detector_1419bee92a6f0b74(*(*C.swig_type_46)(unsafe.Pointer(&_swig_i_0)))))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
 	}
-	if argc == 0 {
-		return p.Get_rect__SWIG_1()
-	}
-	panic("No match for overloaded function call")
-}
-
-func (arg1 SwigcptrFull_object_detection) Num_parts() (_swig_ret uint64) {
-	var swig_r uint64
-	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_full_object_detection_num_parts_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrFull_object_detection) Part__SWIG_0(arg2 uint64) (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
-	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_full_object_detection_part__SWIG_0_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_47(_swig_i_1))))
-	return swig_r
-}
-
-func (arg1 SwigcptrFull_object_detection) Part__SWIG_1(arg2 uint64) (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_) {
-	var swig_r Dlib_vector_Sl_long_Sc_2_Sg_
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	swig_r = (Dlib_vector_Sl_long_Sc_2_Sg_)(SwigcptrDlib_vector_Sl_long_Sc_2_Sg_(C._wrap_full_object_detection_part__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.swig_type_48(_swig_i_1))))
-	return swig_r
-}
-
-func (p SwigcptrFull_object_detection) Part(a ...interface{}) interface{} {
-	argc := len(a)
-	if argc == 1 {
-		return p.Part__SWIG_0(a[0].(uint64))
-	}
-	if argc == 1 {
-		return p.Part__SWIG_1(a[0].(uint64))
-	}
-	panic("No match for overloaded function call")
-}
-
-func DeleteFull_object_detection(arg1 Full_object_detection) {
-	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_full_object_detection_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))
-}
-
-type Full_object_detection interface {
-	Swigcptr() uintptr
-	SwigIsFull_object_detection()
-	Get_rect(a ...interface{}) interface{}
-	Num_parts() (_swig_ret uint64)
-	Part(a ...interface{}) interface{}
-}
-
-func All_parts_in_rect(arg1 Full_object_detection) (_swig_ret bool) {
-	var swig_r bool
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (bool)(C._wrap_all_parts_in_rect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-type SwigcptrMmod_rect uintptr
-
-func (p SwigcptrMmod_rect) Swigcptr() uintptr {
-	return (uintptr)(p)
-}
-
-func (p SwigcptrMmod_rect) SwigIsMmod_rect() {
-}
-
-func NewMmod_rect__SWIG_0() (_swig_ret Mmod_rect) {
-	var swig_r Mmod_rect
-	swig_r = (Mmod_rect)(SwigcptrMmod_rect(C._wrap_new_mmod_rect__SWIG_0_detector_0cbdac121a63e725()))
-	return swig_r
-}
-
-func NewMmod_rect__SWIG_1(arg1 Rectangle) (_swig_ret Mmod_rect) {
-	var swig_r Mmod_rect
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Mmod_rect)(SwigcptrMmod_rect(C._wrap_new_mmod_rect__SWIG_1_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func NewMmod_rect__SWIG_2(arg1 Rectangle, arg2 float64) (_swig_ret Mmod_rect) {
-	var swig_r Mmod_rect
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2
-	swig_r = (Mmod_rect)(SwigcptrMmod_rect(C._wrap_new_mmod_rect__SWIG_2_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
-	return swig_r
-}
-
-func NewMmod_rect__SWIG_3(arg1 Rectangle, arg2 float64, arg3 Std_string) (_swig_ret Mmod_rect) {
-	var swig_r Mmod_rect
+func UseShapePredictor(arg1 Dlib_shape_predictor, arg2 string, arg3 Rectangle) (_swig_ret Dlib_full_object_detection) {
+	var swig_r Dlib_full_object_detection
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Mmod_rect)(SwigcptrMmod_rect(C._wrap_new_mmod_rect__SWIG_3_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Dlib_full_object_detection)(SwigcptrDlib_full_object_detection(C._wrap_UseShapePredictor_detector_1419bee92a6f0b74(C.uintptr_t(_swig_i_0), *(*C.swig_type_47)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
 	return swig_r
 }
 
-func NewMmod_rect(a ...interface{}) Mmod_rect {
-	argc := len(a)
-	if argc == 0 {
-		return NewMmod_rect__SWIG_0()
-	}
-	if argc == 1 {
-		return NewMmod_rect__SWIG_1(a[0].(Rectangle))
-	}
-	if argc == 2 {
-		return NewMmod_rect__SWIG_2(a[0].(Rectangle), a[1].(float64))
-	}
-	if argc == 3 {
-		return NewMmod_rect__SWIG_3(a[0].(Rectangle), a[1].(float64), a[2].(Std_string))
-	}
-	panic("No match for overloaded function call")
-}
-
-func (arg1 SwigcptrMmod_rect) SetRect(arg2 Rectangle) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_mmod_rect_rect_set_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func (arg1 SwigcptrMmod_rect) GetRect() (_swig_ret Rectangle) {
-	var swig_r Rectangle
-	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_mmod_rect_rect_get_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func (arg1 SwigcptrMmod_rect) SetDetection_confidence(arg2 float64) {
+func DetectObjectsRect(arg1 string, arg2 string, arg3 Rectangle) (_swig_ret Dlib_full_object_detection) {
+	var swig_r Dlib_full_object_detection
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_mmod_rect_detection_confidence_set_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
-}
-
-func (arg1 SwigcptrMmod_rect) GetDetection_confidence() (_swig_ret float64) {
-	var swig_r float64
-	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_mmod_rect_detection_confidence_get_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrMmod_rect) SetIgnore(arg2 bool) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_mmod_rect_ignore_set_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
-}
-
-func (arg1 SwigcptrMmod_rect) GetIgnore() (_swig_ret bool) {
-	var swig_r bool
-	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_mmod_rect_ignore_get_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0)))
-	return swig_r
-}
-
-func (arg1 SwigcptrMmod_rect) SetLabel(arg2 Std_string) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_mmod_rect_label_set_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func (arg1 SwigcptrMmod_rect) GetLabel() (_swig_ret Std_string) {
-	var swig_r Std_string
-	_swig_i_0 := arg1
-	swig_r = (Std_string)(SwigcptrStd_string(C._wrap_mmod_rect_label_get_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func DeleteMmod_rect(arg1 Mmod_rect) {
-	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_mmod_rect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))
-}
-
-type Mmod_rect interface {
-	Swigcptr() uintptr
-	SwigIsMmod_rect()
-	SetRect(arg2 Rectangle)
-	GetRect() (_swig_ret Rectangle)
-	SetDetection_confidence(arg2 float64)
-	GetDetection_confidence() (_swig_ret float64)
-	SetIgnore(arg2 bool)
-	GetIgnore() (_swig_ret bool)
-	SetLabel(arg2 Std_string)
-	GetLabel() (_swig_ret Std_string)
-}
-
-func Ignored_mmod_rect(arg1 Rectangle) (_swig_ret Mmod_rect) {
-	var swig_r Mmod_rect
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Mmod_rect)(SwigcptrMmod_rect(C._wrap_ignored_mmod_rect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0))))
-	return swig_r
-}
-
-func Serialize__SWIG_3(arg1 Mmod_rect, arg2 Std_ostream) {
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_serialize__SWIG_3_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func Serialize(a ...interface{}) {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrRectangle); !ok {
-			goto check_1
-		}
-		Serialize__SWIG_2(a[0].(Rectangle), a[1].(Std_ostream))
-		return
-	}
-check_1:
-	if argc == 2 {
-		Serialize__SWIG_3(a[0].(Mmod_rect), a[1].(Std_ostream))
-		return
-	}
-	panic("No match for overloaded function call")
-}
-
-func Deserialize__SWIG_3(arg1 Mmod_rect, arg2 Std_istream) {
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_deserialize__SWIG_3_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
-}
-
-func Deserialize(a ...interface{}) {
-	argc := len(a)
-	if argc == 2 {
-		if _, ok := a[0].(SwigcptrRectangle); !ok {
-			goto check_1
-		}
-		Deserialize__SWIG_2(a[0].(Rectangle), a[1].(Std_istream))
-		return
-	}
-check_1:
-	if argc == 2 {
-		Deserialize__SWIG_3(a[0].(Mmod_rect), a[1].(Std_istream))
-		return
-	}
-	panic("No match for overloaded function call")
-}
-
-func ProcessRect(arg1 Std_string, arg2 Std_string, arg3 Rectangle) (_swig_ret Full_object_detection) {
-	var swig_r Full_object_detection
-	_swig_i_0 := arg1.Swigcptr()
-	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Full_object_detection)(SwigcptrFull_object_detection(C._wrap_ProcessRect_detector_0cbdac121a63e725(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Dlib_full_object_detection)(SwigcptrDlib_full_object_detection(C._wrap_DetectObjectsRect_detector_1419bee92a6f0b74(*(*C.swig_type_48)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_49)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
 	return swig_r
 }
 
@@ -1118,6 +821,14 @@ type Dlib_vector_Sl_double_Sc_2_Sg_ interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrDlib_vector_Sl_double_Sc_2_Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrDlib_shape_predictor uintptr
+type Dlib_shape_predictor interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrDlib_shape_predictor) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -1137,14 +848,6 @@ func (p SwigcptrDlib_vector_Sl_long_Sc_2_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_string uintptr
-type Std_string interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_string) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
 type SwigcptrStd_ostream uintptr
 type Std_ostream interface {
 	Swigcptr() uintptr;
@@ -1161,11 +864,11 @@ func (p SwigcptrStd_istream) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_vector_Sl_dlib_vector_Sl_long_Sc_2_Sg__Sg_ uintptr
-type Std_vector_Sl_dlib_vector_Sl_long_Sc_2_Sg__Sg_ interface {
+type SwigcptrDlib_full_object_detection uintptr
+type Dlib_full_object_detection interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_vector_Sl_dlib_vector_Sl_long_Sc_2_Sg__Sg_) Swigcptr() uintptr {
+func (p SwigcptrDlib_full_object_detection) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
