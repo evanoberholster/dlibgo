@@ -1105,75 +1105,14 @@ dlib::rectangle *_wrap_set_aspect_ratio_detector_63b7eba619e1d075(dlib::rectangl
 }
 
 
-void _wrap_ShapeObjects_rect_set_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, dlib::rectangle *_swig_go_1) {
-  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
-  dlib::rectangle *arg2 = (dlib::rectangle *) 0 ;
-  
-  arg1 = *(ShapeObjects **)&_swig_go_0; 
-  arg2 = *(dlib::rectangle **)&_swig_go_1; 
-  
-  if (arg1) (arg1)->rect = *arg2;
-  
-}
-
-
-dlib::rectangle *_wrap_ShapeObjects_rect_get_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0) {
-  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
-  dlib::rectangle *result = 0 ;
-  dlib::rectangle *_swig_go_result;
-  
-  arg1 = *(ShapeObjects **)&_swig_go_0; 
-  
-  result = (dlib::rectangle *)& ((arg1)->rect);
-  *(dlib::rectangle **)&_swig_go_result = (dlib::rectangle *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ShapeObjects_sz_set_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, intgo _swig_go_1) {
-  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(ShapeObjects **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->sz = arg2;
-  
-}
-
-
-intgo _wrap_ShapeObjects_sz_get_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0) {
-  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(ShapeObjects **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->sz);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-ShapeObjects *_wrap_new_ShapeObjects_detector_63b7eba619e1d075(intgo _swig_go_0) {
+ShapeObjects *_wrap_new_ShapeObjects_detector_63b7eba619e1d075(intgo _swig_go_0, dlib::rectangle *_swig_go_1) {
   int arg1 ;
+  dlib::rectangle arg2 ;
+  dlib::rectangle *argp2 ;
   ShapeObjects *result = 0 ;
   ShapeObjects *_swig_go_result;
   
   arg1 = (int)_swig_go_0; 
-  
-  result = (ShapeObjects *)new ShapeObjects(arg1);
-  *(ShapeObjects **)&_swig_go_result = (ShapeObjects *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ShapeObjects_SetRectangle_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, dlib::rectangle *_swig_go_1) {
-  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
-  dlib::rectangle arg2 ;
-  dlib::rectangle *argp2 ;
-  
-  arg1 = *(ShapeObjects **)&_swig_go_0; 
   
   argp2 = (dlib::rectangle *)_swig_go_1;
   if (argp2 == NULL) {
@@ -1182,8 +1121,35 @@ void _wrap_ShapeObjects_SetRectangle_detector_63b7eba619e1d075(ShapeObjects *_sw
   arg2 = (dlib::rectangle)*argp2;
   
   
-  (arg1)->SetRectangle(arg2);
+  result = (ShapeObjects *)new ShapeObjects(arg1,arg2);
+  *(ShapeObjects **)&_swig_go_result = (ShapeObjects *)result; 
+  return _swig_go_result;
+}
+
+
+dlib::rectangle *_wrap_ShapeObjects_GetRect_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0) {
+  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
+  dlib::rectangle result;
+  dlib::rectangle *_swig_go_result;
   
+  arg1 = *(ShapeObjects **)&_swig_go_0; 
+  
+  result = (arg1)->GetRect();
+  *(dlib::rectangle **)&_swig_go_result = new dlib::rectangle(result); 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_ShapeObjects_GetSize_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0) {
+  ShapeObjects *arg1 = (ShapeObjects *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(ShapeObjects **)&_swig_go_0; 
+  
+  result = (int)(arg1)->GetSize();
+  _swig_go_result = result; 
+  return _swig_go_result;
 }
 
 
@@ -1223,7 +1189,7 @@ dlib::vector< long,2 > *_wrap_ShapeObjects_GetPoint_detector_63b7eba619e1d075(Sh
 }
 
 
-long long _wrap_ShapeObjects_GetXCoord_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, intgo _swig_go_1) {
+long long _wrap_ShapeObjects_X_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, intgo _swig_go_1) {
   ShapeObjects *arg1 = (ShapeObjects *) 0 ;
   int arg2 ;
   long result;
@@ -1232,13 +1198,13 @@ long long _wrap_ShapeObjects_GetXCoord_detector_63b7eba619e1d075(ShapeObjects *_
   arg1 = *(ShapeObjects **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = (long)(arg1)->GetXCoord(arg2);
+  result = (long)(arg1)->X(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-long long _wrap_ShapeObjects_GetYCoord_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, intgo _swig_go_1) {
+long long _wrap_ShapeObjects_Y_detector_63b7eba619e1d075(ShapeObjects *_swig_go_0, intgo _swig_go_1) {
   ShapeObjects *arg1 = (ShapeObjects *) 0 ;
   int arg2 ;
   long result;
@@ -1247,7 +1213,7 @@ long long _wrap_ShapeObjects_GetYCoord_detector_63b7eba619e1d075(ShapeObjects *_
   arg1 = *(ShapeObjects **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
-  result = (long)(arg1)->GetYCoord(arg2);
+  result = (long)(arg1)->Y(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }

@@ -137,16 +137,13 @@ extern uintptr_t _wrap_move_rect__SWIG_0_detector_63b7eba619e1d075(uintptr_t arg
 extern uintptr_t _wrap_move_rect__SWIG_1_detector_63b7eba619e1d075(uintptr_t arg1, swig_type_43 arg2, swig_type_44 arg3);
 extern uintptr_t _wrap_set_rect_area_detector_63b7eba619e1d075(uintptr_t arg1, swig_type_45 arg2);
 extern uintptr_t _wrap_set_aspect_ratio_detector_63b7eba619e1d075(uintptr_t arg1, double arg2);
-extern void _wrap_ShapeObjects_rect_set_detector_63b7eba619e1d075(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ShapeObjects_rect_get_detector_63b7eba619e1d075(uintptr_t arg1);
-extern void _wrap_ShapeObjects_sz_set_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ShapeObjects_sz_get_detector_63b7eba619e1d075(uintptr_t arg1);
-extern uintptr_t _wrap_new_ShapeObjects_detector_63b7eba619e1d075(swig_intgo arg1);
-extern void _wrap_ShapeObjects_SetRectangle_detector_63b7eba619e1d075(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_ShapeObjects_detector_63b7eba619e1d075(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ShapeObjects_GetRect_detector_63b7eba619e1d075(uintptr_t arg1);
+extern swig_intgo _wrap_ShapeObjects_GetSize_detector_63b7eba619e1d075(uintptr_t arg1);
 extern void _wrap_ShapeObjects_SetPoint_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
 extern uintptr_t _wrap_ShapeObjects_GetPoint_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_46 _wrap_ShapeObjects_GetXCoord_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_47 _wrap_ShapeObjects_GetYCoord_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_46 _wrap_ShapeObjects_X_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_47 _wrap_ShapeObjects_Y_detector_63b7eba619e1d075(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_delete_ShapeObjects_detector_63b7eba619e1d075(uintptr_t arg1);
 extern uintptr_t _wrap_LoadShapePredictor_detector_63b7eba619e1d075(swig_type_48 arg1);
 extern uintptr_t _wrap_UseShapePredictor_detector_63b7eba619e1d075(uintptr_t arg1, swig_type_49 arg2, uintptr_t arg3);
@@ -800,43 +797,26 @@ func (p SwigcptrShapeObjects) Swigcptr() uintptr {
 func (p SwigcptrShapeObjects) SwigIsShapeObjects() {
 }
 
-func (arg1 SwigcptrShapeObjects) SetRect(arg2 Rectangle) {
+func NewShapeObjects(arg1 int, arg2 Rectangle) (_swig_ret ShapeObjects) {
+	var swig_r ShapeObjects
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ShapeObjects_rect_set_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	swig_r = (ShapeObjects)(SwigcptrShapeObjects(C._wrap_new_ShapeObjects_detector_63b7eba619e1d075(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	return swig_r
 }
 
 func (arg1 SwigcptrShapeObjects) GetRect() (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ShapeObjects_rect_get_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ShapeObjects_GetRect_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrShapeObjects) SetSz(arg2 int) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	C._wrap_ShapeObjects_sz_set_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
-}
-
-func (arg1 SwigcptrShapeObjects) GetSz() (_swig_ret int) {
+func (arg1 SwigcptrShapeObjects) GetSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ShapeObjects_sz_get_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_ShapeObjects_GetSize_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0)))
 	return swig_r
-}
-
-func NewShapeObjects(arg1 int) (_swig_ret ShapeObjects) {
-	var swig_r ShapeObjects
-	_swig_i_0 := arg1
-	swig_r = (ShapeObjects)(SwigcptrShapeObjects(C._wrap_new_ShapeObjects_detector_63b7eba619e1d075(C.swig_intgo(_swig_i_0))))
-	return swig_r
-}
-
-func (arg1 SwigcptrShapeObjects) SetRectangle(arg2 Rectangle) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ShapeObjects_SetRectangle_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrShapeObjects) SetPoint(arg2 int, arg3 Dlib_vector_Sl_long_Sc_2_Sg_) {
@@ -854,19 +834,19 @@ func (arg1 SwigcptrShapeObjects) GetPoint(arg2 int) (_swig_ret Dlib_vector_Sl_lo
 	return swig_r
 }
 
-func (arg1 SwigcptrShapeObjects) GetXCoord(arg2 int) (_swig_ret int64) {
+func (arg1 SwigcptrShapeObjects) X(arg2 int) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_ShapeObjects_GetXCoord_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_ShapeObjects_X_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrShapeObjects) GetYCoord(arg2 int) (_swig_ret int64) {
+func (arg1 SwigcptrShapeObjects) Y(arg2 int) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_ShapeObjects_GetYCoord_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_ShapeObjects_Y_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -878,15 +858,12 @@ func DeleteShapeObjects(arg1 ShapeObjects) {
 type ShapeObjects interface {
 	Swigcptr() uintptr
 	SwigIsShapeObjects()
-	SetRect(arg2 Rectangle)
 	GetRect() (_swig_ret Rectangle)
-	SetSz(arg2 int)
-	GetSz() (_swig_ret int)
-	SetRectangle(arg2 Rectangle)
+	GetSize() (_swig_ret int)
 	SetPoint(arg2 int, arg3 Dlib_vector_Sl_long_Sc_2_Sg_)
 	GetPoint(arg2 int) (_swig_ret Dlib_vector_Sl_long_Sc_2_Sg_)
-	GetXCoord(arg2 int) (_swig_ret int64)
-	GetYCoord(arg2 int) (_swig_ret int64)
+	X(arg2 int) (_swig_ret int64)
+	Y(arg2 int) (_swig_ret int64)
 }
 
 func LoadShapePredictor(arg1 string) (_swig_ret Dlib_shape_predictor) {

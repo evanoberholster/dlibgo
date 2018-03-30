@@ -9,16 +9,20 @@ using namespace dlib;
 using namespace std;
 
 class ShapeObjects {
+  int sz;
   std::vector<dlib::vector<long,2>> points;
+  dlib::rectangle rect;
   public:
-    dlib::rectangle rect;
-    int sz;
-    ShapeObjects(int _sz) {
+    ShapeObjects(int _sz, dlib::rectangle _rect) {
       points.resize(_sz);
       sz = _sz;
-    }
-    void SetRectangle(dlib::rectangle _rect) {
       rect = _rect;
+    }
+    dlib::rectangle GetRect() {
+      return rect;
+    }
+    int GetSize() {
+      return sz;
     }
     void SetPoint(int index, dlib::vector<long,2> val) {
       points[index] = val;
@@ -26,10 +30,10 @@ class ShapeObjects {
     dlib::vector<long,2> GetPoint(int index) {
       return points[index];
     }
-    long GetXCoord(int index) {
+    long X(int index) {
       return points[index].x();
     }
-    long GetYCoord(int index) {
+    long Y(int index) {
       return points[index].y();
     }
 };
@@ -46,8 +50,7 @@ ShapeObjects UseShapePredictor(const dlib::shape_predictor& sp, const std::strin
 
     dlib::full_object_detection shape = sp(img, rect);
 
-    ShapeObjects so(shape.num_parts());
-    so.SetRectangle(shape.get_rect());
+    ShapeObjects so(shape.num_parts(), shape.get_rect());
 
     for (int i = 0; i < shape.num_parts(); ++i)
     {
