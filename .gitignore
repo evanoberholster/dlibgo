@@ -13,3 +13,5 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 full_object_detection.h
+swig_examples/*
+main

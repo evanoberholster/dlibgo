@@ -12,21 +12,7 @@
 %rename($ignore, %$isclass) ""; // Only ignore all classes
 %rename("%s") Rectangle; // Unignore
 %rename("%s") DetectObjectsRect; // Unignore
-%rename("%s") Point; // Unignore
-%rename("%s") Full_object_detection; // Unignore
-
-/* Tell SWIG about Templates and Type definitions */
-
-typedef dlib::vector<long,2> point; // Point
-
-/* Testing Start */
-template <typename image_type, typename T, typename U>
-        full_object_detection operator()(
-            const image_type& img,
-            const rectangle& rect,
-            std::vector<std::pair<T,U> >& feats
-        ) const;
-/* Testing Finish */
+%rename("%s") ShapeObjects;
 
 %{
 /* Start with config.h */
@@ -67,9 +53,4 @@ extern "C" {
 #include "dlib-go.h"
 
 // #include "full_object.h"
-
-
-typedef dlib::vector<long,2> point;
 %}
-
-// ----------------------------------------------------------------------------------------
