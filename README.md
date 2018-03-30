@@ -1,4 +1,5 @@
-# Work in Progress (Not functional)
+# Work in Progress (Functional)
+There has not been any memory tests done yet. Basic functionality is present. See example/main.go
 
 #### Build SWIG from source
 1. Change configure.ac to accept Go version 1.10
@@ -30,8 +31,8 @@ swig -go -cgo -c++ -intgosize 64
 
 #### Build environment for cgo
 ```shell
-export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11 -ljpeg -llapack -lblas"
-export CGO_LDFLAGS="-ljpeg -llapack -lblas "
+export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11 -ljpeg -lpng -llapack -lblas"
+export CGO_LDFLAGS=" -ljpeg -lpng -llapack -lblas "
 ```
 
 #### Go build command
