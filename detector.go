@@ -77,8 +77,11 @@ typedef long long swig_type_46;
 typedef long long swig_type_47;
 typedef _gostring_ swig_type_48;
 typedef _gostring_ swig_type_49;
-typedef _gostring_ swig_type_50;
-typedef _gostring_ swig_type_51;
+typedef long long swig_type_50;
+typedef long long swig_type_51;
+typedef long long swig_type_52;
+typedef _gostring_ swig_type_53;
+typedef _gostring_ swig_type_54;
 extern void _wrap_Swig_free_detector_63b7eba619e1d075(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc_detector_63b7eba619e1d075(swig_intgo arg1);
 extern uintptr_t _wrap_new_rectangle__SWIG_0_detector_63b7eba619e1d075(swig_type_1 arg1, swig_type_2 arg2, swig_type_3 arg3, swig_type_4 arg4);
@@ -147,7 +150,9 @@ extern swig_type_47 _wrap_ShapeObjects_Y_detector_63b7eba619e1d075(uintptr_t arg
 extern void _wrap_delete_ShapeObjects_detector_63b7eba619e1d075(uintptr_t arg1);
 extern uintptr_t _wrap_LoadShapePredictor_detector_63b7eba619e1d075(swig_type_48 arg1);
 extern uintptr_t _wrap_UseShapePredictor_detector_63b7eba619e1d075(uintptr_t arg1, swig_type_49 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_DetectObjectsRect_detector_63b7eba619e1d075(swig_type_50 arg1, swig_type_51 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_UseShapePredictorByte_detector_63b7eba619e1d075(uintptr_t arg1, swig_voidp arg2, swig_type_50 arg3, uintptr_t arg4);
+extern swig_type_51 _wrap_TestMemoryFile_detector_63b7eba619e1d075(swig_voidp arg1, swig_type_52 arg2);
+extern uintptr_t _wrap_DetectObjectsRect_detector_63b7eba619e1d075(swig_type_53 arg1, swig_type_54 arg2, uintptr_t arg3);
 #undef intgo
 */
 import "C"
@@ -888,12 +893,30 @@ func UseShapePredictor(arg1 Dlib_shape_predictor, arg2 string, arg3 Rectangle) (
 	return swig_r
 }
 
+func UseShapePredictorByte(arg1 Dlib_shape_predictor, arg2 *byte, arg3 int64, arg4 Rectangle) (_swig_ret ShapeObjects) {
+	var swig_r ShapeObjects
+	_swig_i_0 := arg1.Swigcptr()
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4.Swigcptr()
+	swig_r = (ShapeObjects)(SwigcptrShapeObjects(C._wrap_UseShapePredictorByte_detector_63b7eba619e1d075(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_type_50(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	return swig_r
+}
+
+func TestMemoryFile(arg1 *byte, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_TestMemoryFile_detector_63b7eba619e1d075(C.swig_voidp(_swig_i_0), C.swig_type_52(_swig_i_1)))
+	return swig_r
+}
+
 func DetectObjectsRect(arg1 string, arg2 string, arg3 Rectangle) (_swig_ret Dlib_full_object_detection) {
 	var swig_r Dlib_full_object_detection
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Dlib_full_object_detection)(SwigcptrDlib_full_object_detection(C._wrap_DetectObjectsRect_detector_63b7eba619e1d075(*(*C.swig_type_50)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_51)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	swig_r = (Dlib_full_object_detection)(SwigcptrDlib_full_object_detection(C._wrap_DetectObjectsRect_detector_63b7eba619e1d075(*(*C.swig_type_53)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}

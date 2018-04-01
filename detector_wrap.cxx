@@ -1272,6 +1272,47 @@ ShapeObjects *_wrap_UseShapePredictor_detector_63b7eba619e1d075(dlib::shape_pred
 }
 
 
+ShapeObjects *_wrap_UseShapePredictorByte_detector_63b7eba619e1d075(dlib::shape_predictor *_swig_go_0, char *_swig_go_1, long long _swig_go_2, dlib::rectangle *_swig_go_3) {
+  dlib::shape_predictor *arg1 = 0 ;
+  unsigned char *arg2 = (unsigned char *) 0 ;
+  long arg3 ;
+  dlib::rectangle arg4 ;
+  dlib::rectangle const *argp4 ;
+  SwigValueWrapper< ShapeObjects > result;
+  ShapeObjects *_swig_go_result;
+  
+  arg1 = *(dlib::shape_predictor **)&_swig_go_0; 
+  arg2 = *(unsigned char **)&_swig_go_1; 
+  arg3 = (long)_swig_go_2; 
+  
+  argp4 = (dlib::rectangle *)_swig_go_3;
+  if (argp4 == NULL) {
+    _swig_gopanic("Attempt to dereference null dlib::rectangle const");
+  }
+  arg4 = (dlib::rectangle)*argp4;
+  
+  
+  result = UseShapePredictorByte((dlib::shape_predictor const &)*arg1,arg2,arg3,arg4);
+  *(ShapeObjects **)&_swig_go_result = new ShapeObjects(result); 
+  return _swig_go_result;
+}
+
+
+long long _wrap_TestMemoryFile_detector_63b7eba619e1d075(char *_swig_go_0, long long _swig_go_1) {
+  unsigned char *arg1 = (unsigned char *) 0 ;
+  long arg2 ;
+  long result;
+  long long _swig_go_result;
+  
+  arg1 = *(unsigned char **)&_swig_go_0; 
+  arg2 = (long)_swig_go_1; 
+  
+  result = (long)TestMemoryFile(arg1,arg2);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
 dlib::full_object_detection *_wrap_DetectObjectsRect_detector_63b7eba619e1d075(_gostring_ _swig_go_0, _gostring_ _swig_go_1, dlib::rectangle *_swig_go_2) {
   std::string *arg1 = 0 ;
   std::string *arg2 = 0 ;

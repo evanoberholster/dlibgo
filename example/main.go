@@ -18,6 +18,7 @@ func main() {
   log.Printf("Loading Hog file took: %s", elapsed)
 
   start_pred2 := time.Now()
+
   // Process Image
   pred2 := detector.UseShapePredictor(shapePred, "/go/src/detector/example/example.jpg", rect)
   elapsed_pred2 := time.Since(start_pred2)

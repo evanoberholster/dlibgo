@@ -40,6 +40,10 @@ export CGO_LDFLAGS=" -ljpeg -lpng -llapack -lblas "
 go build -x -v
 ```
 
+### Credits
+
+
+
 [Dlib documentation](http://www.dlib.net)
 
 [SWIG documentation](http://www.swig.org/Doc3.0/Go.html)

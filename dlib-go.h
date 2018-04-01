@@ -3,6 +3,7 @@
 #include "dlib/dlib/image_io.h"
 #include "dlib/dlib/image_loader/jpeg_loader.h"
 #include "dlib/dlib/image_loader/png_loader.h"
+#include "image_memory.h"
 #include <iostream>
 
 using namespace dlib;
@@ -46,7 +47,7 @@ dlib::shape_predictor LoadShapePredictor(const std::string& dfilename) {
 
 ShapeObjects UseShapePredictor(const dlib::shape_predictor& sp, const std::string& ifilename, const dlib::rectangle rect) {
     dlib::array2d<dlib::rgb_pixel> img;
-    dlib::load_image(img, ifilename);
+    dlib::load_jpeg(img, ifilename);
 
     dlib::full_object_detection shape = sp(img, rect);
 
@@ -59,6 +60,35 @@ ShapeObjects UseShapePredictor(const dlib::shape_predictor& sp, const std::strin
     return so;
 };
 
+ShapeObjects UseShapePredictorByte(const dlib::shape_predictor& sp, unsigned char* jpg_buffer, long jpg_size, const dlib::rectangle rect) {
+
+    dlib::array2d<dlib::rgb_pixel> img;
+    dlib::load_jpeg_mem(img, jpg_buffer, jpg_size);
+
+    dlib::full_object_detection shape = sp(img, rect);
+
+    ShapeObjects so(shape.num_parts(), shape.get_rect());
+
+    for (int i = 0; i < shape.num_parts(); ++i)
+    {
+        so.SetPoint(i, shape.part(i));
+    }
+
+    return so;
+};
+
+long TestMemoryFile(unsigned char* jpg_buffer, long jpg_size) {
+
+    dlib::array2d<dlib::rgb_pixel> img;
+    dlib::load_jpeg_mem(img, jpg_buffer, jpg_size);
+
+    int fd = open("/go/src/detector/output.jpg", O_CREAT | O_WRONLY, 0666);
+    write(fd, jpg_buffer, jpg_size); // Write out all RGB pixel data
+    close(fd);
+    //free(jpg_buffer);
+    return jpg_size;
+};
+
 dlib::full_object_detection DetectObjectsRect(const std::string& dfilename, const std::string& ifilename, const dlib::rectangle rect) {
     dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
     dlib::shape_predictor sp;
@@ -66,7 +96,7 @@ dlib::full_object_detection DetectObjectsRect(const std::string& dfilename, cons
     deserialize(dfilename) >> sp;
 
     dlib::array2d<dlib::rgb_pixel> img;
-    dlib::load_image(img, ifilename);
+    dlib::load_jpeg(img, ifilename);
 
     std::vector<dlib::rectangle> dets = detector(img);
 

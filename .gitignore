@@ -15,3 +15,5 @@
 swig_examples/*
 main
 example/img1.jpg
+example/test.jpg
+example/testing.go
