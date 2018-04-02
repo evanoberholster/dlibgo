@@ -1,5 +1,5 @@
-/* File : detector.i */
-%module detector
+/* File : dlibgo.i */
+%module dlibgo
 
 %include "std_string.i"
 %include "dlib/dlib/geometry/vector.h"

@@ -1,26 +1,30 @@
 package main
 
 import(
-  "detector"
+  "dlibgo"
   "log"
   "time"
+  "os"
 )
 
 func main() {
   log.Printf("Example Create Rectangle")
-  rect := detector.NewRectangle__SWIG_0(240,220,580,570)
+  rect := dlibgo.NewRectangle__SWIG_0(240,220,580,570)
 
   // Load Hog file
   start := time.Now()
-  shapePred := detector.LoadShapePredictor("/go/src/detector/example/shape_predictor_68_face_landmarks.dat")
-  log.Printf("Hog file loaded")
+  pwd, _ := os.Getwd()
+  spModelfile := pwd+"/models/shape_predictor_68_face_landmarks.dat"
+  shapePred := dlibgo.LoadShapePredictor(spModelfile)
+  log.Print("Shape Predictor Loaded: ", spModelfile)
   elapsed := time.Since(start)
   log.Printf("Loading Hog file took: %s", elapsed)
 
   start_pred2 := time.Now()
 
   // Process Image
-  pred2 := detector.UseShapePredictor(shapePred, "/go/src/detector/example/example.jpg", rect)
+  imageFile := pwd+"/example/example.jpg"
+  pred2 := dlibgo.UseShapePredictor(shapePred, imageFile, rect)
   elapsed_pred2 := time.Since(start_pred2)
   log.Printf("Processing Image took: %s", elapsed_pred2)
 
