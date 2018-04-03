@@ -33,6 +33,7 @@ swig -go -cgo -c++ -intgosize 64
 ```shell
 export CGO_CXXFLAGS="-lsass -lstdc++ -lm -std=c++11 -ljpeg -lpng -llapack -lblas"
 export CGO_LDFLAGS=" -ljpeg -lpng -llapack -lblas "
+export CGO_CXXFLAGS_ALLOW=".*"
 ```
 
 #### Go build command
